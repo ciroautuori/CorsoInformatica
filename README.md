@@ -1,4 +1,4 @@
-# Computer Science and Digital Skills Course Platform
+# Piattaforma Corso di Informatica e Competenze Digitali
 
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
@@ -6,57 +6,57 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Git LFS](https://img.shields.io/badge/Git%20LFS-F64935?style=for-the-badge&logo=git&logoColor=white)](https://git-lfs.com)
 
-An interactive learning platform designed to teach fundamental computer science and digital skills. This platform combines structured learning modules with an AI-powered assistant to provide a comprehensive educational experience.
+Una piattaforma di apprendimento interattiva progettata per insegnare le basi dell'informatica e le competenze digitali. Questa piattaforma combina moduli di apprendimento strutturati con un assistente basato su IA per fornire un'esperienza educativa completa.
 
-## 🌟 Key Features
+## 🌟 Caratteristiche Principali
 
-- **Interactive Learning Interface**: Built with Streamlit for a seamless user experience
-- **AI-Powered Assistant**: Integrated chat interface for real-time help and guidance
-- **Comprehensive Curriculum**: Five detailed modules covering essential digital skills
-- **Practical Exercises**: Hands-on learning opportunities in each module
-- **Docker Support**: Containerized deployment for consistent environments
-- **Cross-Platform**: Supports Windows, macOS, and Linux
+- **Interfaccia di Apprendimento Interattiva**: Costruita con Streamlit per un'esperienza utente fluida
+- **Assistente basato su IA**: Interfaccia di chat integrata per aiuto e guida in tempo reale
+- **Curriculum Completo**: Cinque moduli dettagliati che coprono le competenze digitali essenziali
+- **Esercizi Pratici**: Opportunità di apprendimento pratico in ogni modulo
+- **Supporto Docker**: Distribuzione containerizzata per ambienti consistenti
+- **Multi-piattaforma**: Supporta Windows, macOS e Linux
 
-## 📚 Course Modules
+## 📚 Moduli del Corso
 
-1. **Computer Fundamentals**
-   - Basic components and functions
-   - Operating system essentials
-   - File management
-   - Practical exercises
+1. **Fondamenti del Computer**
+   - Componenti base e funzioni
+   - Elementi essenziali del sistema operativo
+   - Gestione dei file
+   - Esercizi pratici
 
-2. **Internet and Communication**
-   - Safe internet navigation
-   - Email configuration and usage
-   - Digital certificates (PEC)
-   - Hands-on practice
+2. **Internet e Comunicazione**
+   - Navigazione sicura in internet
+   - Configurazione e utilizzo email
+   - Certificati digitali (PEC)
+   - Pratica guidata
 
-3. **Basic Microsoft Office**
-   - Word document creation
-   - Excel spreadsheet basics
-   - PDF management
-   - Applied exercises
+3. **Microsoft Office Base**
+   - Creazione documenti Word
+   - Nozioni base di Excel
+   - Gestione PDF
+   - Esercizi applicativi
 
-4. **Advanced Digital Tools**
-   - ChatGPT introduction
-   - Cloud storage solutions
-   - Digital calendar management
-   - Practical applications
+4. **Strumenti Digitali Avanzati**
+   - Introduzione a ChatGPT
+   - Soluzioni di archiviazione cloud
+   - Gestione calendario digitale
+   - Applicazioni pratiche
 
-5. **Digital Security**
-   - Password management
-   - Online fraud prevention
-   - Data backup strategies
-   - Security exercises
+5. **Sicurezza Digitale**
+   - Gestione password
+   - Prevenzione frodi online
+   - Strategie di backup dei dati
+   - Esercizi sulla sicurezza
 
-## 🚀 Quick Start
+## 🚀 Avvio Rapido
 
-### Prerequisites
+### Prerequisiti
 
-1. Install Git LFS:
+1. Installare Git LFS:
    - **Windows**:
-     1. Download and install [Git LFS](https://git-lfs.com/)
-     2. Open Git Bash and run:
+     1. Scarica e installa [Git LFS](https://git-lfs.com/)
+     2. Apri Git Bash ed esegui:
      ```bash
      git lfs install
      ```
@@ -73,11 +73,11 @@ An interactive learning platform designed to teach fundamental computer science 
      git lfs install
      ```
 
-2. Install Ollama (Required for AI Assistant):
+2. Installare Ollama (Richiesto per l'Assistente IA):
    - **Windows**:
-     1. Download the latest Windows installer from [Ollama Releases](https://github.com/ollama/ollama/releases)
-     2. Run the installer
-     3. Open PowerShell and run:
+     1. Scarica l'installer più recente per Windows da [Ollama Releases](https://github.com/ollama/ollama/releases)
+     2. Esegui l'installer
+     3. Apri PowerShell ed esegui:
      ```powershell
      ollama pull mistral
      ```
@@ -94,22 +94,22 @@ An interactive learning platform designed to teach fundamental computer science 
      ollama pull mistral
      ```
 
-### Manual Installation 
-1. Install Python 3.11 or higher:
-   - **Windows**: Download from [Python.org](https://www.python.org/downloads/)
-   - **macOS**: Use Homebrew `brew install python@3.11`
-   - **Linux**: Use your package manager
+### Installazione Manuale
+1. Installa Python 3.11 o superiore:
+   - **Windows**: Scarica da [Python.org](https://www.python.org/downloads/)
+   - **macOS**: Usa Homebrew `brew install python@3.11`
+   - **Linux**: Usa il gestore pacchetti
      ```bash
      sudo apt-get install python3.11  # Ubuntu/Debian
      ```
 
-2. Set up a virtual environment:
+2. Configura un ambiente virtuale:
 ```bash
 # Windows (PowerShell)
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 
-# Windows (Command Prompt)
+# Windows (Prompt dei Comandi)
 python -m venv venv
 .\venv\Scripts\activate.bat
 
@@ -118,82 +118,83 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-3. Install dependencies:
+3. Installa le dipendenze:
 ```bash
-# All platforms
+# Tutte le piattaforme
 pip install -r requirements.txt
 ```
 
-4. Run the application:
+4. Avvia l'applicazione:
 ```bash
-# All platforms
+# Tutte le piattaforme
 streamlit run __💻__Indice.py
 ```
 
-## 🏗️ Project Structure
+## 🏗️ Struttura del Progetto
 
 ```
-├── 📦 src/              # Source files and assets
-│   ├── 📂 img/          # Image assets
-│   ├── 📂 audio/        # Audio files for lessons
-│   └── 📂 resource/     # PDF and other documents
-├── 📦 requirements.txt  # Python dependencies
-├── 📱 __💻__Indice.py   # Main application file
-└── 📂 pages/            # Course content pages
+├── 📦 src/              # File sorgente e risorse
+│   ├── 📂 img/          # Risorse immagini
+│   ├── 📂 audio/        # File audio per le lezioni
+│   └── 📂 resource/     # PDF e altri documenti
+├── 📦 requirements.txt  # Dipendenze Python
+├── 📱 __💻__Indice.py   # File principale dell'applicazione
+└── 📂 pages/            # Pagine del contenuto del corso
+```
 
-## ⚙️ Technical Requirements
+## ⚙️ Requisiti Tecnici
 
-- Operating System:
-  - Windows 10/11 with WSL2 (for Docker)
-  - macOS 10.15 or newer
-  - Linux (Ubuntu 20.04+, Debian 10+, or similar)
-- Python 3.11 or higher
-- Docker and Docker Compose
-- Ollama (for AI assistant functionality)
-- Modern web browser (Chrome, Firefox, Edge)
-- Internet connection (only for initial setup and model download)
-- Minimum 8GB RAM recommended
-- 10GB free disk space (for models)
+- Sistema Operativo:
+  - Windows 10/11 con WSL2 (per Docker)
+  - macOS 10.15 o più recente
+  - Linux (Ubuntu 20.04+, Debian 10+, o simili)
+- Python 3.11 o superiore
+- Docker e Docker Compose
+- Ollama (per la funzionalità dell'assistente IA)
+- Browser web moderno (Chrome, Firefox, Edge)
+- Connessione internet (solo per la configurazione iniziale e il download del modello)
+- Minimo 8GB RAM consigliati
+- 10GB di spazio libero su disco (per i modelli)
 
-## 🔧 Troubleshooting
+## 🔧 Risoluzione dei Problemi
 
-### Common Issues
+### Problemi Comuni
 
-1. **Ollama Model Download Issues**:
-   - Check your internet connection
-   - Try running: `ollama pull mistral --insecure`
+1. **Problemi di Download del Modello Ollama**:
+   - Controlla la tua connessione internet
+   - Prova a eseguire: `ollama pull mistral --insecure`
 
-2. **Port Conflicts**:
-   - Ensure ports 8501 and 11434 are not in use
-   - Change ports in docker-compose.yml if needed
+2. **Conflitti di Porte**:
+   - Assicurati che le porte 8501 e 11434 non siano in uso
+   - Cambia le porte nel docker-compose.yml se necessario
 
-For more issues, check the [Issues](https://github.com/[your-username]/Corso_Imparando_Informatica/issues) section.
+Per altri problemi, controlla la sezione [Issues](https://github.com/[your-username]/Corso_Imparando_Informatica/issues).
 
-## 🤝 Contributing
+## 🤝 Come Contribuire
 
-We welcome contributions! Please follow these steps:
+Accogliamo con piacere i contributi! Segui questi passaggi:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fai il fork del repository
+2. Crea un branch per la feature (`git checkout -b feature/NuovaFunzionalità`)
+3. Committa le tue modifiche (`git commit -m 'Aggiungi qualche NuovaFunzionalità'`)
+4. Pusha sul branch (`git push origin feature/NuovaFunzionalità`)
+5. Apri una Pull Request
 
-## 📜 License
+## 📜 Licenza
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Questo progetto è rilasciato sotto la Licenza MIT - vedi il file [LICENSE](LICENSE) per i dettagli.
 
-## 📞 Support
+## 📞 Supporto
 
-For support and queries:
-- Open an issue in the repository
-- Contact the maintainers through the repository's issue tracker
+Per supporto e domande:
+- Apri una issue nel repository
+- Contatta i maintainer attraverso il tracker delle issue del repository
 
-## 🙏 Acknowledgments
+## 🙏 Ringraziamenti
 
-- Streamlit for the amazing web framework
-- Ollama for the AI model support
-- All contributors who help improve this platform
+- Streamlit per l'incredibile framework web
+- Ollama per il supporto al modello IA
+- Tutti i contributori che aiutano a migliorare questa piattaforma
 
 ---
-Made with ❤️ for education 
+Realizzato con ❤️ per l'educazione 

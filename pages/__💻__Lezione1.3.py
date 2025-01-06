@@ -95,9 +95,9 @@ with right_col:
 
     # Configure the model
     llm = ChatOpenAI(
-        model="mistral-nemo-instruct-2407",
+        model="mistral",
         openai_api_key="not-needed",
-        openai_api_base="http://localhost:1234/v1",
+        openai_api_base="http://localhost:11434/v1",
         temperature=0.1,
         max_tokens=2048,
     )
