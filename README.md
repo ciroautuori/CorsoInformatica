@@ -1,7 +1,7 @@
 # Piattaforma Corso di Informatica e Competenze Digitali
 
-[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
+[![LangChain](https://img.shields.io/badge/LangChain-0052CC?style=for-the-badge&logo=LangChain&logoColor=white)](https://langchain.com/)
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Git LFS](https://img.shields.io/badge/Git%20LFS-F64935?style=for-the-badge&logo=git&logoColor=white)](https://git-lfs.com)
@@ -14,7 +14,6 @@ Una piattaforma di apprendimento interattiva progettata per insegnare le basi de
 - **Assistente basato su IA**: Interfaccia di chat integrata per aiuto e guida in tempo reale
 - **Curriculum Completo**: Cinque moduli dettagliati che coprono le competenze digitali essenziali
 - **Esercizi Pratici**: Opportunità di apprendimento pratico in ogni modulo
-- **Supporto Docker**: Distribuzione containerizzata per ambienti consistenti
 - **Multi-piattaforma**: Supporta Windows, macOS e Linux
 
 ## 📚 Moduli del Corso
@@ -149,7 +148,6 @@ streamlit run __💻__Indice.py
   - macOS 10.15 o più recente
   - Linux (Ubuntu 20.04+, Debian 10+, o simili)
 - Python 3.11 o superiore
-- Docker e Docker Compose
 - Ollama (per la funzionalità dell'assistente IA)
 - Browser web moderno (Chrome, Firefox, Edge)
 - Connessione internet (solo per la configurazione iniziale e il download del modello)
@@ -165,8 +163,7 @@ streamlit run __💻__Indice.py
    - Prova a eseguire: `ollama pull mistral --insecure`
 
 2. **Conflitti di Porte**:
-   - Assicurati che le porte 8501 e 11434 non siano in uso
-   - Cambia le porte nel docker-compose.yml se necessario
+   - Assicurati che la porta 11434 non sia in uso
 
 Per altri problemi, controlla la sezione [Issues](https://github.com/[your-username]/Corso_Imparando_Informatica/issues).
 
