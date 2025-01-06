@@ -13,7 +13,6 @@ Una piattaforma di apprendimento interattiva progettata per insegnare le basi de
 - **Assistente basato su IA**: Interfaccia di chat integrata per aiuto e guida in tempo reale
 - **Curriculum Completo**: Cinque moduli dettagliati che coprono le competenze digitali essenziali
 - **Esercizi Pratici**: Opportunità di apprendimento pratico in ogni modulo
-- **Supporto Docker**: Distribuzione containerizzata per ambienti consistenti
 - **Multi-piattaforma**: Supporta Windows, macOS e Linux
 
 ## 📚 Moduli del Corso
