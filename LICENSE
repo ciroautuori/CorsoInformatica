@@ -1,9 +1,72 @@
-MIT License
+# 📜 Licenza MIT
 
-Copyright (c) 2024 Ciro Autuori
+<div align="center">
 
-Con la presente si concede, a chiunque ottenga una copia di questo software e dei file di documentazione associati (il "Software"), l'autorizzazione a usare gratuitamente il Software senza alcuna limitazione, compresi i diritti di usare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere ai soggetti cui il Software è fornito di fare altrettanto, alle seguenti condizioni:
+**Copyright © 2024 Ciro Autuori**
 
-L'avviso di copyright di cui sopra e questo avviso di autorizzazione devono essere inclusi in ogni copia o parte sostanziale del Software.
+</div>
 
-IL SOFTWARE VIENE FORNITO "COSÌ COM'È", SENZA GARANZIE DI ALCUN TIPO, ESPLICITE O IMPLICITE, COMPRESE, MA NON SOLO, LE GARANZIE DI COMMERCIABILITÀ, IDONEITÀ PER UN PARTICOLARE SCOPO E NON VIOLAZIONE DI DIRITTI ALTRUI. IN NESSUN CASO GLI AUTORI O I TITOLARI DEL COPYRIGHT SARANNO RESPONSABILI PER QUALSIASI RECLAMO, DANNO O ALTRA RESPONSABILITÀ, SIA IN UN'AZIONE DI CONTRATTO, TORTO O ALTRO, DERIVANTE DA, FUORI O IN CONNESSIONE CON IL SOFTWARE O L'USO O ALTRE OPERAZIONI DEL SOFTWARE. 
+---
+
+## 📋 Termini e Condizioni
+
+Con la presente si concede, gratuitamente, a chiunque ottenga una copia di questo software e della relativa documentazione (di seguito denominati "Software"), l'autorizzazione a utilizzare il Software senza alcuna restrizione, inclusi, a titolo esemplificativo:
+
+### 🔓 Diritti Concessi
+
+- ✅ il diritto di utilizzare
+- ✅ il diritto di copiare
+- ✅ il diritto di modificare
+- ✅ il diritto di unire
+- ✅ il diritto di pubblicare
+- ✅ il diritto di distribuire
+- ✅ il diritto di sublicenziare
+- ✅ il diritto di vendere
+
+copie del Software, nonché di permettere alle persone a cui il Software è fornito di fare altrettanto.
+
+## 📌 Condizioni
+
+Le condizioni sopra elencate sono soggette alle seguenti disposizioni:
+
+### 📢 Avviso di Copyright
+
+L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software.
+
+### ⚠️ Clausola di Esclusione della Responsabilità
+
+IL SOFTWARE VIENE FORNITO "COSÌ COM'È", SENZA GARANZIE DI ALCUN TIPO, ESPLICITE O IMPLICITE, INCLUSE, MA NON SOLO, LE GARANZIE DI:
+
+- 🔹 COMMERCIABILITÀ
+- 🔹 IDONEITÀ PER UN PARTICOLARE SCOPO
+- 🔹 NON VIOLAZIONE DI DIRITTI ALTRUI
+
+### 📝 Limitazione di Responsabilità
+
+IN NESSUN CASO GLI AUTORI O I TITOLARI DEL COPYRIGHT SARANNO RESPONSABILI PER:
+
+- 🚫 RECLAMI
+- 🚫 DANNI
+- 🚫 ALTRE RESPONSABILITÀ
+
+derivanti da, correlati a, o conseguenti a:
+
+- 📍 CONTRATTO
+- 📍 ILLECITO
+- 📍 ALTRE AZIONI
+
+in connessione con:
+
+- 💻 IL SOFTWARE
+- 🔄 L'UTILIZZO DEL SOFTWARE
+- 🔗 ALTRE OPERAZIONI DEL SOFTWARE
+
+---
+
+<div align="center">
+
+*Questo documento è una versione stilizzata della Licenza MIT standard.*
+
+*Per informazioni legali complete, consultare: [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)*
+
+</div> 
